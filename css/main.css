@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Questrial&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&&display=swap');
+
+* {
+    margin: auto;
+}
+
+header {
+    background: #87d36f;
+    text-align: center;
+    margin-bottom: 20px;
+
+    border-bottom: solid 3px #71a528;
+    padding: 50px;
+
+}
+
+h1 {
+    font-family: "Josefin Sans", sans-serif;
+}
+
+p {
+    color: #cc1b1b
+}
+
+#foto-perfil {
+    width: 300px;
+    border-radius: 20px;
+    float: right;
+}
