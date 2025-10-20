@@ -120,22 +120,63 @@
 
             </section>
 
-       
-    <section id="contacto">
-        <h2>Contáctame</h2>
-        <p>Pláticame de tu proyecto, llena los datos y te contactare</p>
-        <form>
-            <div class="campos">
-                <label>Nombre completo</label>
-                <input type="text"  name="nombre" placeholder="Nombre completo" />
-                <button>Enviar</button>
-            </div>
-        </form>
-         </section>
+
+            <section id="contacto">
+                <h2>Contáctame</h2>
+                <p>Pláticame de tu proyecto, llena los datos y te contactare</p>
+                <form>
+                    <div class="campos">
+                        <label>Nombre completo</label>
+                        <input type="text" name="nombre" placeholder="Nombre completo" required />
+
+                    </div>
+                    <div class="campos">
+                        <label>Email</label>
+                        <input type="email" name="correo_electronico" placeholder="ejemplo@utcancun.edu.mx" required />
+                    </div>
+
+                    <div class="campos">
+                        <label>Motivo</label>
+                        <select>
+                            <option value="1">Contacto</option>
+                            <option selected>Cotización</option>
+                            <option>Otro</option>
+                        </select>
+                        <div class="campos">
+                            <label>Teléfono</label>
+                            <input type="tel" />
+                            <div class="campos">
+                                <label>Fecha de evento</label>
+                                <input type="date" />
+                            </div>
+                            <div class="campos">
+                                <label>Número de empleados</label>
+                                <input type="number" />
+                            </div>
+                            <div class="campos">
+                                <label>Modo de contacto</label>
+                                <input type="checkbox" class="opciones" name="modalidad"><span>WhatsApp </span>
+                                <input type="checkbox" class="opciones" name="modalidad"><span>Correo </span>
+                            </div>
+
+                            <div class="campos">
+                                <label>¿Eres cliente?</label>
+                                <input type="radio" name="es_cliente" /><span>Sí </span>
+                                <input type="radio" name="es_cliente" /><span>No </span>
+                            </div>
+                        </div>
+                        <div class="campos">
+                            <label>Fotografía</label>
+                            <input type="file" />
+                            <div class="campos">
+                                <button type="submit">Enviar</button>
+                            </div>
+                </form>
+            </section>
     </main>
-        <footer>
-            <p><br>&copy; 2025 Todos los derechos reservados - Ismael Alexander Hidalgo Aguilando</p>
-        </footer>
+    <footer>
+        <p><br>&copy; 2025 Todos los derechos reservados - Ismael Alexander Hidalgo Aguilando</p>
+    </footer>
 </body>
 
 </html>
